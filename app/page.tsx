@@ -1,6 +1,6 @@
 import Link from "next/link"
 import { ArrowRight } from "lucide-react"
-
+import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { ThemeSelector } from "@/components/theme-selector"
 
@@ -10,6 +10,7 @@ export default function Home() {
       <header className="sticky top-0 z-10 border-b bg-background">
         <div className="container flex h-16 items-center justify-between py-4">
           <div className="flex items-center gap-2 font-bold">
+            <Image src="/dezproxlogo.png" alt="Dezprox Logo" width={32} height={32} />
             <span className="text-primary">SuperMarket</span>
             <span>POS</span>
           </div>

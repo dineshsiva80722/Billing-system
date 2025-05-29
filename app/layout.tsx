@@ -7,9 +7,14 @@ import { ThemeProvider, ColorThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Supermarket Billing System",
-  description: "A comprehensive POS system with barcode scanning, inventory management, and customer tracking",
-    generator: 'v0.dev'
+  title: "Dezprox Supermarket Billing System",
+  description: "Dezprox Supermarket Billing System is a comprehensive POS system with barcode scanning, inventory management, customer tracking, and detailed sales reports. It is designed to help small to medium-sized supermarkets manage their sales, inventory, and customer data efficiently.",
+    icons:{
+      icon: '/dezproxlogo.png',
+      shortcut: '/dezproxlogo.png',
+      apple: '/dezproxlogo.png',
+    }
+
 }
 
 export default function RootLayout({
